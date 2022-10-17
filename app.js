@@ -49,12 +49,10 @@ function getComputerChoice() {
     return choices[randIdx];
 }
 
-
 function quitGame() {
     alert("Quiting game...");
     return false;
 }
-
 
 function determineWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) return TIE;
@@ -89,7 +87,6 @@ function handleWinner(winner, playerChoice, computerChoice) {
     alert(msg);
 }
 
-
 function playRound() {
     const playerChoice = getPlayerChoice();
     if (playerChoice === QUIT) return quitGame();
@@ -99,7 +96,6 @@ function playRound() {
     return true;
 }
 
-// Call this function to play the game
 function playRockPaperScissors() {
     while (playRound()) { }
 }
