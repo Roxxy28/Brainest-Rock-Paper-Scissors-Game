@@ -100,9 +100,9 @@ function playRound() {
 }
 
 
-// function playRockPaperScissors() {
-//     while (playRound()) { }
-// }
+function playRockPaperScissors() {
+    while (playRound()) { }
+}
 
 // Call this function to play the game
 playRockPaperScissors()
